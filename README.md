@@ -1,2 +1,2 @@
 # smashing-grid
-Design Teardown of Smashig Magazine Homepage.
+Design Teardown of Smashing Magazine Homepage.
