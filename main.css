@@ -108,3 +108,46 @@ section{
     width: 16.6%;
     height: auto;
 }
+
+
+/* Section Four*/
+.section-four {
+	background-color: #7d7d9a;
+	height: 1008.69px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 100px;
+}
+
+.section-four p {
+	box-sizing: border-box;
+	margin-bottom: 32px;		
+}
+
+.section-four p:nth-of-type(1) {
+	font-size: larger;
+	text-transform: uppercase;
+}
+
+.section-four p:nth-of-type(2) {
+	margin: 32px 25% 50px 25%;
+	font-size: x-large;
+}
+
+.section-four h1 {
+	box-sizing: border-box;
+	font-size: -webkit-xxx-large;
+	text-decoration: underline;
+}
+
+.section-four button {
+	width: 373px;
+	height: 66px;
+	border-radius: 5px;
+	font-size: larger;
+}
+
+/* Secton - five*/
+.section-five {
+	height: 1584px;
+}
