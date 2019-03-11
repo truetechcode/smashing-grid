@@ -136,6 +136,123 @@ section{
 	background: #ffffff;
 	padding: 10px;
 }
+.section-two .h2{
+	font-size: 1rem;
+	font-weight: bold;
+	background: #000;
+	color: #fff;
+	position: relative;
+	margin: 100px 0 0 100px;
+	width: 300px;
+	padding: 10px;
+}
+.section-two .h2 span{
+	font-style: italic;
+	font-weight: 100;
+}
+
+.section-two div div:last-child{
+	font-size: 1.8rem;
+	font-weight: bold;
+	background: #000;
+	color: #fff;
+	position: relative;
+	/* display: inline-block; */
+	margin: 10px 0 0 100px;
+	width: 450px;
+	padding: 10px;
+}
+
+.section-three .h2{
+	font-size: 1.25rem;
+	font-weight: bold;
+	background: #000;
+	color: #fff;
+	position: relative;
+	margin: 50px 0 0 10px;
+	width: 80%;
+	padding: 10px;
+}
+.section-three .h2 span{
+	font-style: italic;
+	font-weight: 100;
+	font-size: 1.1rem;
+	display: block;
+	margin-top: 10px;
+}
+
+.section-three ul li{
+	line-height: 2;
+	list-style-type: disc;
+	margin-left: 10px;
+}
+
+.section-three .h2 span.guide{
+	font-style: normal;
+	font-weight: 100;
+	font-size: 1.1rem;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.section-three div div:last-child{
+	font-size: 1rem;
+	font-weight: 100;
+	background: #000;
+	color: #fff;
+	position: relative;
+	margin: 10px 0 0 10px;
+	width: 90%;
+	padding: 10px;
+	line-height: 1.5;
+}
+
+.section-three .special div:last-child,
+.section-three .special h1:first-child,
+.section-three .special p{
+	margin: 0 auto;
+}
+
+.section-three .special{
+	text-align: center;
+}
+
+.section-three .special h1:first-child{
+	font-size: 2rem;
+	font-weight: bold;
+	background: #000;
+	color: #fff;
+	position: relative;
+	margin-top: 40px;
+	width: 60%;
+	padding: 10px;
+	line-height: 1.5;
+}
+
+.section-three .special p{
+	font-size: 1rem;
+	font-weight: 100;
+	background: #000;
+	color: #fff;
+	position: relative;
+	margin-top: 10px;
+	width: 60%;
+	padding: 10px;
+	line-height: 1.5;
+}
+
+.section-three .special div:last-child{
+	font-size: 1rem;
+	font-weight: bold;
+	background: #000;
+	color: #fff;
+	position: relative;
+	margin-top: 20px;
+	width: 30%;
+	padding: 10px;
+	line-height: 1.5;
+}
 
 /* Columns */
 
