@@ -167,7 +167,7 @@
    .section-three .h2{
    	font-size: 1.25rem;
    	font-weight: bold;
-   	background: #333333;
+   	background: #555555;
    	color: #fff;
    	position: relative;
    	margin: 50px 0 0 10px;
@@ -200,7 +200,7 @@
    .section-three div div:last-child{
    	font-size: 1rem;
    	font-weight: 100;
-   	background: #333333;
+   	background: #555555;
    	color: #fff;
    	position: relative;
    	margin: 10px 0 0 10px;
