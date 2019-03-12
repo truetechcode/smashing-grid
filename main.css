@@ -61,7 +61,7 @@
    	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    	height: auto;
    	overflow-x: hidden;
-   	background-color: #f6f3f2;
+   	background-color: #888888;
    }
 
    .clearfix::after, section::after {
@@ -72,21 +72,21 @@
 
    /* Colors */
 
-   .grey-1{
-   	background: #d33a2c;
+   .grey-5{
+   	background: #777777;
    }
 
-   .grey-2{
-   	background: #bc3428;
+   .grey-4{
+   	background: #666666;
    }
    .grey-3{
-   	background: #c7372a;
+   	background: #555555;
    }
-   .grey-4{
-   	background: #b13125;
+   .grey-2{
+   	background: #444444;
    }
-   .grey-5{
-   	background: #bc3428;
+   .grey-1{
+   	background: #333333;
    }
 
    /* Navbar */
@@ -103,7 +103,7 @@
    	padding: 10px;
    	font-size: 1.3rem;
    	font-weight: bold;
-   	background: #000;
+   	background: #333333;
    }
 
    .section-one .col-1-6{
@@ -123,23 +123,24 @@
    	margin-left: -169.5px;
    	text-align: center;
    	font-size: 1.5rem;
-   	font-weight: bold;
+		 font-weight: bold;
+		 color: #ffffff;
    }
    .section-two h1 span.title-1{
    	display: inline-block;
-   	background: #ffffff;
+   	background: #333333;
    	padding: 10px;
    }
 
    .section-two h1 span.title-2{
    	display: inline-block;
-   	background: #ffffff;
+   	background: #333333;
    	padding: 10px;
    }
    .section-two .h2{
    	font-size: 1rem;
    	font-weight: bold;
-   	background: #000;
+   	background: #333333;
    	color: #fff;
    	position: relative;
    	margin: 100px 0 0 100px;
@@ -154,7 +155,7 @@
    .section-two div div:last-child{
    	font-size: 1.8rem;
    	font-weight: bold;
-   	background: #000;
+   	background: #333333;
    	color: #fff;
    	position: relative;
    	/* display: inline-block; */
@@ -166,7 +167,7 @@
    .section-three .h2{
    	font-size: 1.25rem;
    	font-weight: bold;
-   	background: #000;
+   	background: #333333;
    	color: #fff;
    	position: relative;
    	margin: 50px 0 0 10px;
@@ -199,7 +200,7 @@
    .section-three div div:last-child{
    	font-size: 1rem;
    	font-weight: 100;
-   	background: #000;
+   	background: #333333;
    	color: #fff;
    	position: relative;
    	margin: 10px 0 0 10px;
@@ -221,7 +222,7 @@
    .section-three .special h1:first-child{
    	font-size: 2rem;
    	font-weight: bold;
-   	background: #000;
+   	background: #333333;
    	color: #fff;
    	position: relative;
    	margin-top: 40px;
@@ -233,7 +234,7 @@
    .section-three .special p{
    	font-size: 1rem;
    	font-weight: 100;
-   	background: #000;
+   	background: #333333;
    	color: #fff;
    	position: relative;
    	margin-top: 10px;
@@ -245,7 +246,7 @@
    .section-three .special div:last-child{
    	font-size: 1rem;
    	font-weight: bold;
-   	background: #000;
+   	background: #333333;
    	color: #fff;
    	position: relative;
    	margin-top: 20px;
@@ -259,7 +260,7 @@
    [class*="col-"] {
    	float: left;
    	padding: 15px;
-   	border: 1px solid red;
+   	border: 1px solid #333333;
    }
 
    .col-1-6 {width: 16.66%;}
