@@ -296,7 +296,7 @@
 
    /* Section Four*/
    .section-four {
-   	background-color: #7d7d9a;
+   	background-color: #cacdd1;
    	height: 1008.69px;
    	text-align: center;
    	box-sizing: border-box;
@@ -313,17 +313,29 @@
    .section-four p:nth-of-type(1) {
    	font-size: larger;
    	text-transform: uppercase;
+   	background-color: #555555;
+   	color: white;
+   	 width: fit-content;
+   	  margin-left: auto;
+     margin-right: auto;
+    
    }
 
    .section-four p:nth-of-type(2) {
    	margin: 32px 25% 50px 25%;
    	font-size: x-large;
+   	background-color: #777777;
+   	color: white;
    }
 
    .section-four h1 {
    	box-sizing: border-box;
    	font-size: -webkit-xxx-large;
    	text-decoration: underline;
+   	background-color: #333333;
+   	color: white;
+   	 width: fit-content;
+     margin: 0px auto;
    }
 
    .section-four button {
@@ -331,6 +343,8 @@
    	height: 66px;
    	border-radius: 5px;
    	font-size: larger;
+   	background-color: #444444;
+   	color: white;
    }
 
    /* Secton - five*/
@@ -345,13 +359,13 @@
    }
    .person-of-the-week div:nth-of-type(1) {
    	width: 25%;
-   	background-color: blue;
+   	background-color: #333333;
    	height: inherit;
    }
 
    .person-of-the-week div:nth-of-type(2) {
    	width: 75%;
-   	background-color: aliceblue;
+   	background-color: #cacdd1;
    	height: inherit;
    	padding-left: 20px;
    }
@@ -359,6 +373,15 @@
    .person-of-the-week div:nth-of-type(2) h4{
    	margin-top: 25px;
    	margin-bottom: 35px;
+   	background-color: #777777;
+   	color: white;
+   	width: fit-content;
+   }
+
+   .person-of-the-week div:nth-of-type(2) p {
+   	width: fit-content;
+   	background-color:#666666;
+   	color: white;
    }
 
    .community-links {
@@ -372,31 +395,43 @@
 
 
    .commnity-article-container {
-   	background-color: green;
+   	background-color: #777777;
    	width: 548px;
    	height: 229px;
    	margin: 63px 0px;
    	display: flex;
+   	color: white;
    }
 
    .author-image {
    	width: 65%;
    	height: inherit;
-   	background-color: yellow;
+   	background-color: #444444;
    }
 
    .article-info p:nth-of-type(1) {
    	font-size: larger;
-   	padding: 20px 0px;
+   	margin: 20px 0px;
+   	background-color:#555555;
+   	color: white;
+   	width: fit-content;
+   	box-sizing: border-box;
    }
 
    .article-info h1 {
    	font-size: x-large;
    	font-weight: bolder;
-   	padding-top: 5px;
-   	padding-bottom: 20px;
+   	margin-top: 5px;
+   	margin-bottom: 20px;
+   	background-color: #333333;
+   	color: white;
+   	box-sizing: border-box;
+   	width: fit-content;
    }
 
+   .article-info a {
+   	color: white;
+   }
    /* Border */
 
    .border{
@@ -408,7 +443,7 @@
    .section-six {
    	width: 100%;
    	height: 422.5px;
-   	background-color: red;
+   	background-color: #777777;
    	padding: 40px 5%;
    }
 
@@ -416,12 +451,21 @@
    	font-size: -webkit-xxx-large;
    	text-decoration: underline;
    	margin: 30px 0px;
+   	background-color: #333333;
+   	width: fit-content;
+   	color: white;
    }
 
    .featured-box p {
    	font-size: larger;
    	margin-top: 20px;
    	width: 55%;
+   	background-color: #555555;
+   	color: white;
+   }
+
+   .featured-box p:nth-of-type(1) {
+   	width: fit-content;
    }
 
    .featured-box button {
@@ -429,6 +473,7 @@
    	height: 66px;
    	font-size: x-large;
    	    margin: 30px 0px;
+   	    background-color: #444444;
    }
    .featured-box a {
    	text-decoration: none;
@@ -441,6 +486,7 @@
    	width: 100%;
    	height:100vh;
    	padding: 40px 8%;
+   	background-color:#cacdd1;
    }
 
    .footer-content {
@@ -453,17 +499,26 @@
      width: 40%;
    	 text-align: center;
    	 position: relative;
+   	 background-color: #777777;
     left: 30%;
+    color: white;
+
    }
 
     .footer-content h1 {
-   	margin: 40px 0px;
+   	margin: 40px auto;
    	text-align: center;
+   	background-color: #555555;
+   	width: fit-content;
+ 	color: white;
+
    }
 
    .link-box {
    	width: 100%;
    	font-size: x-large;
+   	background-color: #555555;
+   	color: white;
    }
 
    .link-box a {
@@ -477,6 +532,8 @@
    	flex-wrap:wrap;
    	text-align: center;
    	justify-content: center;
+ 	color: white;
+
    }
 
    .link-box li {
@@ -487,10 +544,15 @@
 
    .footer-links {
    	width: 40%;
-   	position: relative;
-    left: 30%;
+    margin-left: 30%;
     text-align: center;
     margin-top: 40px;
+    background-color: #777777;
+    
+   }
+
+   .footer-links a {
+   	color: white;
    }
 
   
