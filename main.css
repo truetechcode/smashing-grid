@@ -326,6 +326,7 @@
    	font-size: x-large;
    	background-color: #777777;
    	color: white;
+   	font-family: 'Lato', sans-serif;
    }
 
    .section-four h1 {
@@ -334,6 +335,7 @@
    	text-decoration: underline;
    	background-color: #333333;
    	color: white;
+   	font-family: 'Lato', sans-serif;
    	 width: fit-content;
      margin: 0px auto;
    }
@@ -454,6 +456,7 @@
    	background-color: #333333;
    	width: fit-content;
    	color: white;
+   	font-family: 'Lato', sans-serif;
    }
 
    .featured-box p {
